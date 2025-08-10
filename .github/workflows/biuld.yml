@@ -25,7 +25,7 @@ jobs:
         run: platformio run
 
       - name: Upload firmware artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: firmware
           path: .pio/build/esp32dev/firmware.bin
